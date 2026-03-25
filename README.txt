@@ -1,30 +1,24 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 📊 Análise de Retenção de Clientes - RFM e Cohort
 
+## 📌 Objetivo
+Analisar o comportamento dos clientes utilizando as metodologias RFM e Cohort, com foco em retenção, segmentação e geração de insights estratégicos para o negócio.
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+## 🛠️ Ferramentas utilizadas
+- Excel
+- Power Query
+- Tabelas Dinâmicas
+- Análise de Dados
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 📊 Principais análises
+- Análise de Cohort (retenção de clientes)
+- Segmentação RFM (Recência, Frequência e Monetização)
+- Desempenho de produtos e regiões
 
-(* = not included)
+## 📈 Principais insights
+- Forte queda de retenção após o primeiro mês (janela crítica de 30 dias)
+- 68% dos clientes estão entre "Fiéis" e "Fiéis em potencial"
+- Sazonalidade forte no fim do ano (Nov/Dez com pico de vendas)
+- Região South com baixo desempenho comparado às demais
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## 📄 Relatório completo
+👉 [Clique aqui para ver o relatório completo](portfolio_superstore_final.pdf)
