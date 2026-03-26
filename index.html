@@ -6,10 +6,36 @@
 -->
 <html>
 	<head>
-		<title>PortIfólio de Ciências de Dados</title>
+		<title>Portfólio de Ciências de Dados – Vinicios Bucedi</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Foto de perfil na sidebar */
+			.sidebar-foto {
+				text-align: center;
+				margin-bottom: 1.5em;
+			}
+			.sidebar-foto img {
+				width: 140px;
+				height: 140px;
+				border-radius: 50%;
+				object-fit: cover;
+				object-position: center top;
+				border: 4px solid #f56a6a;
+				display: inline-block;
+			}
+			.sidebar-foto h3 {
+				margin-top: 0.8em;
+				margin-bottom: 0.2em;
+				font-size: 1.1em;
+			}
+			.sidebar-foto p {
+				font-size: 0.85em;
+				color: #999;
+				margin: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -22,12 +48,11 @@
 
 					<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>Portifólio de Projetos:</strong> de Ciências de Dados</a>
+						<a href="index.html" class="logo"><strong>Portfólio de Projetos:</strong> de Ciências de Dados</a>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+							<li><a href="https://www.instagram.com/vinicios_bucedi/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Vinicios-DS" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/vinicios-bucedi-479674345/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
 					</header>
 
@@ -43,7 +68,8 @@
 								públicos.<br />
 								Você vai encontrar também, minhas experiências profissionais, habilidades,
 								ferramentas e conceitos envolvendo a Ciência de Dados.<br />
-								Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
+								Sinta-se à vontade para entrar em contato através dos links no final da página.
+							</p>
 						</div>
 						<span class="image object">
 							<img src="images/projeto.jpg" alt="" />
@@ -51,86 +77,77 @@
 					</section>
 
 					<!-- Sobre mim -->
-					<section>
+					<section id="sobre">
 						<header class="main">
 							<h1>Sobre mim</h1>
 						</header>
-						<h2 id="content">Meu nome é Vinicios Bucedi</h2>
-						<p>Sou formado em Tecnólogo em Ciência de Dados pela Universidade Estácio de Sá (colação de grau em agosto de 2024), com Coeficiente de Rendimento de <strong>9,39</strong>.</p>
-						<p>Atualmente trabalho como motorista numa empresa de venda de equipamentos gastronômicos e fazendo um curso de ciências de dados para melhorar minhas habilidades e ferramentas.</p>
-						<p>Estou buscando minha primeira oportunidade de trabalhar profissionalmente como Cientista de
-							Dados para melhorar a tomada de decisão da empresa, através da construção de
-							soluções usando dados.</p>
 
-						<!-- Formação -->
-						<section>
+						<div class="row">
+							<div class="col-4 col-12-medium" style="text-align:center; padding-bottom: 1.5em;">
+								<img src="images/foto_perfil.jpg" alt="Vinicios Bucedi"
+									style="width:200px; height:200px; border-radius:50%; object-fit:cover; object-position: center top; border: 4px solid #f56a6a;" />
+							</div>
+							<div class="col-8 col-12-medium">
+								<h2>Meu nome é Vinicios Bucedi</h2>
+								<p>Sou formado em Tecnólogo em Ciências de Dados pela Universidade Estácio de Sá (Rio de Janeiro), com colação de grau em agosto de 2024 e <strong>Coeficiente de Rendimento de 9,39</strong>.</p>
+								<p>Me interessei por Ciência de Dados pela combinação entre minha afinidade com números e o grande potencial de crescimento da área. Tenho uma paixão particular por finanças — investir é um dos meus hobbies — e enxergo nos dados uma forma poderosa de tomar decisões mais inteligentes e aumentar a lucratividade das empresas.</p>
+								<p>Meu objetivo é me aprofundar cada vez mais nas ferramentas e técnicas da área para construir soluções que gerem impacto real nos negócios. Estou buscando minha primeira oportunidade profissional como Cientista de Dados.</p>
+							</div>
+						</div>
+
+						<!-- Formação e Certificados -->
+						<section id="formacao">
 							<header class="major">
-								<h2>🎓 Formação Acadêmica</h2>
+								<h2>🎓 Formação e Certificados</h2>
 							</header>
 							<div class="features">
+
 								<article>
 									<span class="icon solid fa-graduation-cap"></span>
 									<div class="content">
 										<h3>Tecnólogo em Ciência de Dados</h3>
-										<p><strong>Universidade Estácio de Sá</strong> — São Gonçalo, RJ<br />
-										Conclusão: Junho de 2024 &nbsp;|&nbsp; CR: <strong>9,39</strong></p>
+										<p><strong>Universidade Estácio de Sá</strong> — Concluído em agosto de 2024<br />
+										CR: 9,39 | Carga horária total: 2.659 horas</p>
 										<ul class="actions">
-											<li>
-												<a href="documentos/DIPLOMA.pdf" target="_blank" class="button small">
-													📄 Ver Diploma
-												</a>
-											</li>
+											<li><a href="docs/DIPLOMA.pdf" target="_blank" class="button small">📄 Ver Certidão</a></li>
 										</ul>
 									</div>
 								</article>
-							</div>
-						</section>
 
-						<!-- Certificados -->
-						<section>
-							<header class="major">
-								<h2>📜 Certificados</h2>
-							</header>
-							<div class="features">
 								<article>
-									<span class="icon solid fa-robot"></span>
+									<span class="icon solid fa-brain"></span>
 									<div class="content">
-										<h3>Técnicas de IA: Machine Learning e PLN</h3>
-										<p><strong>Universidade Estácio de Sá</strong> &nbsp;|&nbsp; Dezembro de 2023<br />
-										176 horas — Inteligência Artificial + Machine Learning</p>
+										<h3>Certificado: Técnicas de IA — Machine Learning e PLN</h3>
+										<p><strong>Universidade Estácio de Sá</strong> — Dezembro de 2023<br />
+										176 horas | Inteligência Artificial + Machine Learning</p>
 										<ul class="actions">
-											<li>
-												<a href="documentos/CERTIFICADO_MACHINE_LEARNING.pdf" target="_blank" class="button small">
-													📄 Ver Certificado
-												</a>
-											</li>
+											<li><a href="docs/CERTIFICADO_MACHINE_LEARNING.pdf" target="_blank" class="button small">📄 Ver Certificado</a></li>
 										</ul>
 									</div>
 								</article>
+
 								<article>
 									<span class="icon solid fa-chart-bar"></span>
 									<div class="content">
-										<h3>Análises de Dados com R</h3>
-										<p><strong>Universidade Estácio de Sá</strong> &nbsp;|&nbsp; Junho de 2024<br />
-										154 horas — Matemática e Lógica + Estatística Experimental e Amostragem</p>
+										<h3>Certificado: Análises de Dados com R</h3>
+										<p><strong>Universidade Estácio de Sá</strong> — Junho de 2024<br />
+										154 horas | Matemática e Lógica + Estatística Experimental e Amostragem</p>
 										<ul class="actions">
-											<li>
-												<a href="documentos/CERTIFICADO_ANALISE_DE_DADOS_COM_R.pdf" target="_blank" class="button small">
-													📄 Ver Certificado
-												</a>
-											</li>
+											<li><a href="docs/CERTIFICADO_ANALISE_DE_DADOS_COM_R.pdf" target="_blank" class="button small">📄 Ver Certificado</a></li>
 										</ul>
 									</div>
 								</article>
+
 							</div>
 						</section>
 
 						<!-- Habilidades -->
-						<section>
+						<section id="habilidades">
 							<header class="major">
 								<h2>🛠️ Habilidades</h2>
 							</header>
 							<div class="features">
+
 								<article>
 									<span class="icon fa-gem"></span>
 									<div class="content">
@@ -138,13 +155,13 @@
 										<ul>
 											<li>Análise de dados com R.</li>
 											<li>SQL para extração de dados.</li>
-											<li>Banco de Dados SQLite.</li>
-											<li>Banco de Dados NoSQL.</li>
+											<li>Banco de Dados SQLite e NoSQL.</li>
 											<li>Banco de Dados Geográficos.</li>
 											<li>Arquitetura de Data Warehouse e Data Marts.</li>
 										</ul>
 									</div>
 								</article>
+
 								<article>
 									<span class="icon solid fa-paper-plane"></span>
 									<div class="content">
@@ -154,46 +171,46 @@
 											<li>Estatística Experimental e Amostragem.</li>
 											<li>Análise Multivariada e Clustering.</li>
 											<li>Séries Temporais.</li>
+											<li>Machine Learning e PLN.</li>
 											<li>Inteligência Artificial.</li>
-											<li>Machine Learning.</li>
-											<li>PLN (Processamento de Linguagem Natural).</li>
 										</ul>
 									</div>
 								</article>
+
 								<article>
 									<span class="icon solid fa-rocket"></span>
 									<div class="content">
-										<h3>Visualização e Análise de Dados</h3>
+										<h3>Visualização de Dados</h3>
 										<ul>
-											<li>Análise de Dados.</li>
-											<li>Data-Driven Marketing.</li>
-											<li>Gráficos Dinâmicos (Treemap, Linha, Barras, Pizza).</li>
+											<li>Análise de Dados e Data-Driven Marketing.</li>
+											<li>Gráficos Dinâmicos no Excel (Treemap, Linha, Barras, Pizza).</li>
 											<li>Formatação Condicional (Heatmap).</li>
-											<li>Segmentação RFM.</li>
-											<li>Análise de Cohort.</li>
+											<li>Power Query.</li>
+											<li>Fórmulas Avançadas (ÍNDICE, CORRESP, PORCENTRANK).</li>
 										</ul>
 									</div>
 								</article>
+
 								<article>
 									<span class="icon solid fa-signal"></span>
 									<div class="content">
-										<h3>Engenharia de Software e Infraestrutura</h3>
+										<h3>Engenharia de Software e Dados</h3>
 										<ul>
 											<li>Big Data.</li>
 											<li>Computação em Nuvem e Dados Abertos.</li>
-											<li>Power Query e Excel Avançado.</li>
-											<li>Fórmulas Avançadas (ÍNDICE, CORRESP, PORCENTRANK).</li>
-											<li>Git e GitHub.</li>
 											<li>Modelagem de Dados.</li>
+											<li>Sistemas de Informação.</li>
+											<li>Git e GitHub.</li>
 										</ul>
 									</div>
 								</article>
+
 							</div>
 						</section>
 					</section>
 
 					<!-- Experiências -->
-					<section>
+					<section id="experiencias">
 						<header class="main">
 							<h1>Experiências Profissionais</h1>
 						</header>
@@ -202,13 +219,12 @@
 					</section>
 
 					<!-- Projetos -->
-					<section>
+					<section id="projetos">
 						<header class="major">
 							<h1>Projetos em Ciência de Dados</h1>
 						</header>
 						<div class="posts">
 
-							<!-- Projeto 1: Análise de Retenção RFM Varejo -->
 							<article>
 								<a href="https://github.com/Vinicios-DS/portifolio_projetos/blob/main/analise-retencao-rfm-varejo/portfolio_superstore_final.pdf"
 								   target="_blank" class="image">
@@ -235,22 +251,17 @@
 									<li>Fórmulas Avançadas (ÍNDICE, CORRESP, PORCENTRANK, MÁXIMO.SE).</li>
 									<li>Formatação Condicional (Heatmap).</li>
 									<li>Gráficos Dinâmicos (Treemap, Linha, Barras, Pizza).</li>
-									<li>Análise de Cohort.</li>
-									<li>Segmentação RFM.</li>
+									<li>Análise de Cohort e Segmentação RFM.</li>
 								</ul>
 
 								<ul class="actions">
 									<li>
 										<a href="https://github.com/Vinicios-DS/portifolio_projetos/blob/main/analise-retencao-rfm-varejo/portfolio_superstore_final.pdf"
-										   target="_blank" class="button">
-											📄 Ver Projeto (PDF)
-										</a>
+										   target="_blank" class="button">📄 Ver Projeto (PDF)</a>
 									</li>
 									<li>
 										<a href="https://github.com/Vinicios-DS/portifolio_projetos"
-										   target="_blank" class="button">
-											🔗 Ver no GitHub
-										</a>
+										   target="_blank" class="button">🔗 Ver no GitHub</a>
 									</li>
 								</ul>
 							</article>
@@ -259,7 +270,7 @@
 					</section>
 
 					<!-- Contato -->
-					<section>
+					<section id="contato">
 						<header class="major">
 							<h2>Entre em Contato</h2>
 						</header>
@@ -267,6 +278,51 @@
 						<ul class="contact">
 							<li class="icon solid fa-envelope"><a href="mailto:vinicios-96@hotmail.com">vinicios-96@hotmail.com</a></li>
 							<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/vinicios-bucedi-479674345/" target="_blank">LinkedIn</a></li>
+							<li class="icon brands fa-github"><a href="https://github.com/Vinicios-DS" target="_blank">GitHub</a></li>
+							<li class="icon brands fa-instagram"><a href="https://www.instagram.com/vinicios_bucedi/" target="_blank">Instagram</a></li>
+						</ul>
+					</section>
+
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar">
+				<div class="inner">
+
+					<!-- Foto de perfil -->
+					<section class="sidebar-foto">
+						<img src="images/foto_perfil.jpg" alt="Vinicios Bucedi" />
+						<h3>Vinicios Bucedi</h3>
+						<p>Cientista de Dados</p>
+					</section>
+
+					<!-- Menu de navegação -->
+					<nav id="menu">
+						<header class="major">
+							<h2>Menu</h2>
+						</header>
+						<ul>
+							<li><a href="#banner">🏠 Início</a></li>
+							<li><a href="#sobre">👤 Sobre mim</a></li>
+							<li><a href="#formacao">🎓 Formação</a></li>
+							<li><a href="#habilidades">🛠️ Habilidades</a></li>
+							<li><a href="#experiencias">💼 Experiências</a></li>
+							<li><a href="#projetos">📊 Projetos</a></li>
+							<li><a href="#contato">📬 Contato</a></li>
+						</ul>
+					</nav>
+
+					<!-- Contato rápido na sidebar -->
+					<section>
+						<header class="major">
+							<h2>Contato</h2>
+						</header>
+						<ul class="contact">
+							<li class="icon solid fa-envelope"><a href="mailto:vinicios-96@hotmail.com">vinicios-96@hotmail.com</a></li>
+							<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/vinicios-bucedi-479674345/" target="_blank">LinkedIn</a></li>
+							<li class="icon brands fa-github"><a href="https://github.com/Vinicios-DS" target="_blank">GitHub</a></li>
+							<li class="icon brands fa-instagram"><a href="https://www.instagram.com/vinicios_bucedi/" target="_blank">Instagram</a></li>
 						</ul>
 					</section>
 
